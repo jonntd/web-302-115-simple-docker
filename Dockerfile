@@ -1,6 +1,6 @@
 # 使用官方Python镜像作为基础镜像
 FROM python:3.11-slim-buster
-
+RUN apt-get update && apt-get install -y gcc g++ make
 # 设置工作目录
 WORKDIR /app
 
