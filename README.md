@@ -72,3 +72,19 @@ networks:
 ```
 
 
+115-cookies.txt  浏览器不大助手获取
+
+config.yaml 
+
+```yaml
+server:
+  # 替换成自己的挂载路径
+  # 如果你的 Emby 运行在 Windows 下，可以向下面这样填 mount-page: "F:" (大概是这样吧)
+  mount-path: /media/115
+  url: http://web_115_302_simple
+
+emby:
+  url: http://emby_server:8096
+  apikey: xxxx
+
+```
