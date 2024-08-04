@@ -73,7 +73,9 @@ networks:
 
 
 115-cookies.txt  浏览器不大助手获取
-
+```
+UID=; CID=; SEID=
+```
 config.yaml 
 
 ```yaml
